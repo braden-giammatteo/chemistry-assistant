@@ -1,4 +1,3 @@
-
 import chempy
 from chempy import Substance, balance_stoichiometry
 from drafter import *
@@ -6,7 +5,12 @@ from dataclasses import dataclass
 from bakery import assert_equal
 from thermo import Chemical
 
-
+set_site_information(
+    author="Braden Giammatteo",
+    description="A chemistry assistant that takes your experimental information, and then returns more complex information, like the theoretical yield or percent yield",
+    sources=["thermo and chempy"],
+    planning=["https://docs.google.com/document/d/1XktjDm2B2RT84M2a9oGBxqw1T9zF5yJvkq4yXRyNIQE/edit?usp=sharing & https://docs.google.com/document/d/1byZX8o091RXfnSEK0pqWW-14x7S4T64dlgbS6aFnyt0/edit?usp=sharing"],
+    links=["https://github.com/braden.giammatteo/chemistry-assistant"]
 '''Dataclasses'''
 
 @dataclass
