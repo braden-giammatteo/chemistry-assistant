@@ -9,7 +9,7 @@ set_site_information(
     author="Braden Giammatteo",
     description="A chemistry assistant that takes your experimental information, and then returns more complex information, like the theoretical yield or percent yield",
     sources=["thermo and chempy, and a variety of drafter documents"],
-    planning=["https://docs.google.com/document/d/1XktjDm2B2RT84M2a9oGBxqw1T9zF5yJvkq4yXRyNIQE/edit?usp=sharing & https://docs.google.com/document/d/1byZX8o091RXfnSEK0pqWW-14x7S4T64dlgbS6aFnyt0/edit?usp=sharing"],
+    planning=["Braden Giammatteo--CS1 Final Project 1_ Design.pdf & Braden Giammatteo--CS1 Final Project 0_ Pick a Problem.pdf"],
     links=["https://braden-giammatteo.github.io/chemistry-assistant/"]
 '''Dataclasses'''
 
